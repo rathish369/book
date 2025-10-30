@@ -93,7 +93,7 @@ function App() {
                   </p>
                   <p>
                     <strong>First Published:</strong>{" "}
-                    {book.first_publish_year || "N/A"}
+                    {book.first_publish_year || "n/a"}
                   </p>
                 </div>
               </a>
@@ -113,7 +113,7 @@ function App() {
           </a>
         </p>
         <p className="footer-small">
-          Built with ❤️ using React by <strong>Your Name</strong>
+          Built with ❤️ using React by <strong>rathish</strong>
         </p>
       </footer>
     </div>
